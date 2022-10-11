@@ -32,6 +32,7 @@ const DUMMY_MEALS = [
 function AvaliableMeals(props) {
   const mealsList = DUMMY_MEALS.map((meal) => (
     <MealIteam
+      id={meal.id}
       key={meal.id}
       name={meal.name}
       description={meal.description}
